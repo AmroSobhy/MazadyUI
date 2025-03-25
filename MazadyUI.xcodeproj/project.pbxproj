@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350690AA2D92E20E00CDE47C /* MazadyUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350690A92D92E20E00CDE47C /* MazadyUIApp.swift */; };
+		350690AC2D92E20E00CDE47C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350690AB2D92E20E00CDE47C /* ContentView.swift */; };
+		350690AE2D92E21100CDE47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350690AD2D92E21100CDE47C /* Assets.xcassets */; };
+		350690B12D92E21200CDE47C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350690B02D92E21200CDE47C /* Preview Assets.xcassets */; };
+		350690BB2D92E21200CDE47C /* MazadyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350690BA2D92E21200CDE47C /* MazadyUITests.swift */; };
+		350690C52D92E21200CDE47C /* MazadyUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350690C42D92E21200CDE47C /* MazadyUIUITests.swift */; };
+		350690C72D92E21200CDE47C /* MazadyUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350690C62D92E21200CDE47C /* MazadyUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		350690B72D92E21200CDE47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3506909E2D92E20E00CDE47C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350690A52D92E20E00CDE47C;
+			remoteInfo = MazadyUI;
+		};
+		350690C12D92E21200CDE47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3506909E2D92E20E00CDE47C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350690A52D92E20E00CDE47C;
+			remoteInfo = MazadyUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		350690A62D92E20E00CDE47C /* MazadyUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MazadyUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350690A92D92E20E00CDE47C /* MazadyUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazadyUIApp.swift; sourceTree = "<group>"; };
+		350690AB2D92E20E00CDE47C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		350690AD2D92E21100CDE47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350690B02D92E21200CDE47C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		350690B62D92E21200CDE47C /* MazadyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazadyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350690BA2D92E21200CDE47C /* MazadyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazadyUITests.swift; sourceTree = "<group>"; };
+		350690C02D92E21200CDE47C /* MazadyUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazadyUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350690C42D92E21200CDE47C /* MazadyUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazadyUIUITests.swift; sourceTree = "<group>"; };
+		350690C62D92E21200CDE47C /* MazadyUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazadyUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350690A32D92E20E00CDE47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350690B32D92E21200CDE47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350690BD2D92E21200CDE47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3506909D2D92E20E00CDE47C = {
+			isa = PBXGroup;
+			children = (
+				350690A82D92E20E00CDE47C /* MazadyUI */,
+				350690B92D92E21200CDE47C /* MazadyUITests */,
+				350690C32D92E21200CDE47C /* MazadyUIUITests */,
+				350690A72D92E20E00CDE47C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		350690A72D92E20E00CDE47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350690A62D92E20E00CDE47C /* MazadyUI.app */,
+				350690B62D92E21200CDE47C /* MazadyUITests.xctest */,
+				350690C02D92E21200CDE47C /* MazadyUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350690A82D92E20E00CDE47C /* MazadyUI */ = {
+			isa = PBXGroup;
+			children = (
+				350690A92D92E20E00CDE47C /* MazadyUIApp.swift */,
+				350690AB2D92E20E00CDE47C /* ContentView.swift */,
+				350690AD2D92E21100CDE47C /* Assets.xcassets */,
+				350690AF2D92E21200CDE47C /* Preview Content */,
+			);
+			path = MazadyUI;
+			sourceTree = "<group>";
+		};
+		350690AF2D92E21200CDE47C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				350690B02D92E21200CDE47C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		350690B92D92E21200CDE47C /* MazadyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				350690BA2D92E21200CDE47C /* MazadyUITests.swift */,
+			);
+			path = MazadyUITests;
+			sourceTree = "<group>";
+		};
+		350690C32D92E21200CDE47C /* MazadyUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				350690C42D92E21200CDE47C /* MazadyUIUITests.swift */,
+				350690C62D92E21200CDE47C /* MazadyUIUITestsLaunchTests.swift */,
+			);
+			path = MazadyUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350690A52D92E20E00CDE47C /* MazadyUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350690CA2D92E21200CDE47C /* Build configuration list for PBXNativeTarget "MazadyUI" */;
+			buildPhases = (
+				350690A22D92E20E00CDE47C /* Sources */,
+				350690A32D92E20E00CDE47C /* Frameworks */,
+				350690A42D92E20E00CDE47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MazadyUI;
+			productName = MazadyUI;
+			productReference = 350690A62D92E20E00CDE47C /* MazadyUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		350690B52D92E21200CDE47C /* MazadyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350690CD2D92E21200CDE47C /* Build configuration list for PBXNativeTarget "MazadyUITests" */;
+			buildPhases = (
+				350690B22D92E21200CDE47C /* Sources */,
+				350690B32D92E21200CDE47C /* Frameworks */,
+				350690B42D92E21200CDE47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350690B82D92E21200CDE47C /* PBXTargetDependency */,
+			);
+			name = MazadyUITests;
+			productName = MazadyUITests;
+			productReference = 350690B62D92E21200CDE47C /* MazadyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		350690BF2D92E21200CDE47C /* MazadyUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350690D02D92E21200CDE47C /* Build configuration list for PBXNativeTarget "MazadyUIUITests" */;
+			buildPhases = (
+				350690BC2D92E21200CDE47C /* Sources */,
+				350690BD2D92E21200CDE47C /* Frameworks */,
+				350690BE2D92E21200CDE47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350690C22D92E21200CDE47C /* PBXTargetDependency */,
+			);
+			name = MazadyUIUITests;
+			productName = MazadyUIUITests;
+			productReference = 350690C02D92E21200CDE47C /* MazadyUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3506909E2D92E20E00CDE47C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					350690A52D92E20E00CDE47C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					350690B52D92E21200CDE47C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 350690A52D92E20E00CDE47C;
+					};
+					350690BF2D92E21200CDE47C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 350690A52D92E20E00CDE47C;
+					};
+				};
+			};
+			buildConfigurationList = 350690A12D92E20E00CDE47C /* Build configuration list for PBXProject "MazadyUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3506909D2D92E20E00CDE47C;
+			productRefGroup = 350690A72D92E20E00CDE47C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350690A52D92E20E00CDE47C /* MazadyUI */,
+				350690B52D92E21200CDE47C /* MazadyUITests */,
+				350690BF2D92E21200CDE47C /* MazadyUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350690A42D92E20E00CDE47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350690B12D92E21200CDE47C /* Preview Assets.xcassets in Resources */,
+				350690AE2D92E21100CDE47C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350690B42D92E21200CDE47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350690BE2D92E21200CDE47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350690A22D92E20E00CDE47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350690AC2D92E20E00CDE47C /* ContentView.swift in Sources */,
+				350690AA2D92E20E00CDE47C /* MazadyUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350690B22D92E21200CDE47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350690BB2D92E21200CDE47C /* MazadyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350690BC2D92E21200CDE47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350690C72D92E21200CDE47C /* MazadyUIUITestsLaunchTests.swift in Sources */,
+				350690C52D92E21200CDE47C /* MazadyUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		350690B82D92E21200CDE47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350690A52D92E20E00CDE47C /* MazadyUI */;
+			targetProxy = 350690B72D92E21200CDE47C /* PBXContainerItemProxy */;
+		};
+		350690C22D92E21200CDE47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350690A52D92E20E00CDE47C /* MazadyUI */;
+			targetProxy = 350690C12D92E21200CDE47C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		350690C82D92E21200CDE47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		350690C92D92E21200CDE47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350690CB2D92E21200CDE47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MazadyUI/Preview Content\"";
+				DEVELOPMENT_TEAM = GT8W5896L6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.MazadyUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		350690CC2D92E21200CDE47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MazadyUI/Preview Content\"";
+				DEVELOPMENT_TEAM = GT8W5896L6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.MazadyUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		350690CE2D92E21200CDE47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT8W5896L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.MazadyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MazadyUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MazadyUI";
+			};
+			name = Debug;
+		};
+		350690CF2D92E21200CDE47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT8W5896L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.MazadyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MazadyUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MazadyUI";
+			};
+			name = Release;
+		};
+		350690D12D92E21200CDE47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT8W5896L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.MazadyUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MazadyUI;
+			};
+			name = Debug;
+		};
+		350690D22D92E21200CDE47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT8W5896L6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.MazadyUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MazadyUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350690A12D92E20E00CDE47C /* Build configuration list for PBXProject "MazadyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350690C82D92E21200CDE47C /* Debug */,
+				350690C92D92E21200CDE47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350690CA2D92E21200CDE47C /* Build configuration list for PBXNativeTarget "MazadyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350690CB2D92E21200CDE47C /* Debug */,
+				350690CC2D92E21200CDE47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350690CD2D92E21200CDE47C /* Build configuration list for PBXNativeTarget "MazadyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350690CE2D92E21200CDE47C /* Debug */,
+				350690CF2D92E21200CDE47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350690D02D92E21200CDE47C /* Build configuration list for PBXNativeTarget "MazadyUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350690D12D92E21200CDE47C /* Debug */,
+				350690D22D92E21200CDE47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3506909E2D92E20E00CDE47C /* Project object */;
+}
