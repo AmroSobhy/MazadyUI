@@ -20,13 +20,6 @@ struct ContentView: View {
                                             .scaledToFill()
                                             .cornerRadius(24)
                                     )
-                                    .overlay(
-                                        RoundedRectangle(cornerRadius: 60)
-                                            .inset(by: 1.50)
-                                            .stroke(.white, lineWidth: 1.50)
-                                    )
-                                    .offset(x: 0, y: 0) // Removed the x and y offset
-                                    
                             }
                         }
                         .frame(width: 72, height: 72) // Added explicit frame for the ZStack
@@ -86,15 +79,7 @@ struct ContentView: View {
                                             .scaledToFill()
                                             .cornerRadius(24)
                                     )
-//                                    .background(Color(red: 0.50, green: 0.23, blue: 0.27).opacity(0.50))
                                     .cornerRadius(24)
-//                                    .overlay(
-//                                        RoundedRectangle(cornerRadius: 24)
-//                                            .inset(by: 1.50)
-//                                            .stroke(.white, lineWidth: 1.50)
-//                                    )
-//                                    .offset(x: 0, y: 0) // Removed the x and y offset
-                               
                             }
                         }
                         .frame(width: 24, height: 24) // Added explicit frame
@@ -344,13 +329,31 @@ struct ContentView: View {
                     .padding(.horizontal) // Add horizontal padding to the ScrollView
                 }
                 .frame(height: 100) // Added a fixed height for the ScrollView
-                ZStack() {
-                    
-                    Text("Upcoming course of this week")
-                        .font(Font.custom("Poppins", size: 18).weight(.semibold))
-                        .lineSpacing(25.20)
-                        .foregroundColor(Color(red: 0.19, green: 0.19, blue: 0.19))
+                
+                
+                
+                
+                ScrollView(.horizontal, showsIndicators: false) { // Added ScrollView for horizontal scrolling
+                    HStack(spacing: 16) { // Added HStack to arrange items horizontally with spacing
+                        ZStack() {
+                            Group {
+                                    Text("Upcoming course of this week")
+                                        .font(Font.custom("Poppins", size: 18).weight(.semibold))
+                                        .lineSpacing(25.20)
+                                        .foregroundColor(Color(red: 0.19, green: 0.19, blue: 0.19))
+                                                                   
+                            }
+                        }
+                        .frame(width: 300, height: 50) // Added explicit frame
+                        
+                    }
+                    .padding(.horizontal) // Add horizontal padding to the ScrollView
                 }
+                .frame(height: 50) // Added a fixed height for the ScrollView
+                
+                
+                
+                
                 ScrollView(.horizontal, showsIndicators: false) { // Added ScrollView for horizontal scrolling
                     HStack(spacing: 16) { // Added HStack to arrange items horizontally with spacing
                         
